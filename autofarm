@@ -3,12 +3,14 @@ while wait(.5) do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-24, 18, 234)
 end
 elseif game.PlaceId == 7577073048 then
-while wait(.5) do
+while wait(.1) do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(67, 19, 104)
+end
+while wait(.5) do
 local Event = game:GetService("ReplicatedStorage").FrontmanRemotes.BecomeFrontman
 Event:InvokeServer(true)
-while wait(15) do
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This is an automated message sen every 15s to inform you that this host is afk and will not return soon! (auto grind lol)","all")
 end
+while wait(10) do
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This is an automated message sen every 10s to inform you that this host is afk and will not return soon! (auto grind lol)","all")
 end
 end
