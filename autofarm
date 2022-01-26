@@ -7,10 +7,8 @@ while wait(.5) do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(67, 19, 104)
 local Event = game:GetService("ReplicatedStorage").FrontmanRemotes.BecomeFrontman
 Event:InvokeServer(true)
-while wait(10)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This is an automated message sen every 10s to inform you that this host is afk and will not return soon! (auto grind lol)","all")
+while wait(15) do
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This is an automated message sen every 15s to inform you that this host is afk and will not return soon! (auto grind lol)","all")
 end
 end
 end
-
-pcall(queue_on_teleport, [[loadstring(game:HttpGet("https://raw.githubusercontent.com/storematelamo/brofarm/main/autofarm"))()]])
