@@ -1,0 +1,4 @@
+while wait(.2) do
+ReplicatedStorage.FrontmanRemotes.InputRLGL:FireServer()
+ReplicatedStorage.FrontmanRemotes.InputRLGL:FireServer(Players.CookieIsPublixXRip.PlayerGui.FrontmanUI.RLGL.ChangeController)
+end
