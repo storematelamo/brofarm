@@ -1,0 +1,9 @@
+local RunService = game:GetService("RunService")
+local Workspace = game:GetService("Workspace")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local LocalPlayer = Players.LocalPlayer
+local Players = game:GetService("Players")
+
+while wait(.01) do
+game:GetService("ReplicatedStorage").GuardRemotes.CollectBody:FireServer(LocalPlayer, Body.Torso.CFrame, Body.Name)
+end
