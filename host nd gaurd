@@ -1,5 +1,5 @@
 while wait(.1) do
 game:GetService("ReplicatedStorage").GuardRemotes.BecomeGuard:InvokeServer(true)
-wait(.1)
+wait(.5)
 game:GetService("ReplicatedStorage").FrontmanRemotes.BecomeFrontman:InvokeServer(true)
 end
