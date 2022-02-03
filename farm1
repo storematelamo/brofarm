@@ -1,3 +1,5 @@
-while wait(.01) do
+while wait(.02) do
+for i=1,1000 do
 	game:GetService("ReplicatedStorage").FrontmanRemotes.BurnCoffin:FireServer()
+end
 end
