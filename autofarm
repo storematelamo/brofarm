@@ -25,5 +25,64 @@ end
 
 -- Queue on Teleport
 pcall(queue_on_teleport, [[loadstring(game:HttpGet("https://raw.githubusercontent.com/storematelamo/brofarm/main/autofarm"))()]])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Call Detected?? woohoo!","all")
 
