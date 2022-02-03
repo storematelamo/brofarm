@@ -84,5 +84,4 @@ pcall(queue_on_teleport, [[loadstring(game:HttpGet("https://raw.githubuserconten
 
 
 
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Call Detected?? woohoo!","all")
-
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Call Detected?? woohoo!","all") end
